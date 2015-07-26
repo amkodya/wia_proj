@@ -1,0 +1,33 @@
+/* the project css file */
+
+body {
+	background-color: #F3E5CA;
+}
+/*jquery menu*/
+.ui-menu { 
+	width: 100%;
+}
+.ui-menu li {
+	clear: none;
+	float: left;
+	width: 14.9%;
+	background: #BF7572;
+}
+
+.ul-menu li ul,
+.ui-menu li ul li {
+	clear: both;
+	float: left;
+	width: 200px;
+}
+#menu a {
+	text-decoration: none;
+	color: #F3E5CA;
+}
+
+@media (max-width: 600px) {
+  .ui-menu li {
+    clear: both;
+    float: left;
+    width: 100%;
+  }
