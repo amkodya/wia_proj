@@ -2,6 +2,7 @@
 
 body {
 	background-color: #F3E5CA;
+	font-family: "Helvetica", sans-serif;
 }
 /*jquery menu*/
 .ui-menu { 
@@ -11,14 +12,13 @@ body {
 	clear: none;
 	float: left;
 	width: 14.9%;
-	background: #BF7572;
+	background: #325473;
 }
 
 .ul-menu li ul,
 .ui-menu li ul li {
 	clear: both;
 	float: left;
-	width: 200px;
 }
 #menu a {
 	text-decoration: none;
@@ -30,4 +30,5 @@ body {
     clear: both;
     float: left;
     width: 100%;
+    font-size: 30px;
   }
