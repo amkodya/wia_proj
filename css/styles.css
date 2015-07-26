@@ -25,7 +25,7 @@ body {
 	color: #F3E5CA;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   .ui-menu li {
     clear: both;
     float: left;
