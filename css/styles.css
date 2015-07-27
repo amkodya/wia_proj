@@ -31,7 +31,10 @@ body {
 	background: #D8AB91;
 }
 #menu li:first-child {
-	margin-top: 75px;
+	margin-top: 55px;
+}
+#menu li ul li:nth-child(1) {
+	margin-top: 0;
 }
 .ul-menu li ul,
 .ui-menu li ul li {
