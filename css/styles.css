@@ -7,6 +7,15 @@ body {
 #logo {
 	width: 50%;
 	margin: 50px 0 0 -95px;
+	clear: none;
+	float: left;
+}
+#storepic {
+	width: 650px;
+	height: 550px;
+	position: relative;
+	top: 0;
+	left: -80px;
 }
 /*jquery menu*/
 #menu { 
