@@ -2,33 +2,58 @@
 
 body {
 	background-color: #F3E5CA;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Dosis", sans-serif;
+}
+#logo {
+	width: 50%;
+	margin: 50px 0 0 -100px;
 }
 /*jquery menu*/
-.ui-menu { 
-	width: 100%;
-}
-.ui-menu li {
+#menu { 
+	width: 18%;
+	height: 600px;
 	clear: none;
 	float: left;
-	width: 14.9%;
-	background: #325473;
+	background-color: #D8AB91;
+	margin: 50px 100px;
 }
-
+.ui-menu li {
+	height: 100px;
+	background: #D8AB91;
+}
 .ul-menu li ul,
 .ui-menu li ul li {
 	clear: both;
 	float: left;
+	width: 251px;
+	height: 50px;
+}
+.ui-menu li:hover,
+.ui-menu li ul:hover,
+.ui-menu li ul li:hover {
+	background-color: #BF7572;
 }
 #menu a {
 	text-decoration: none;
 	color: #F3E5CA;
+	font-family: "Dosis", sans-serif;
 }
 
 @media screen and (max-width: 1000px) {
-  .ui-menu li {
-    clear: both;
-    float: left;
-    width: 100%;
-    font-size: 30px;
-  }
+	header {
+		position: absolute;
+    	top: 0;
+    	left: 0;
+	}
+  	.ui-menu li {
+    	clear: both;
+    	float: left;
+    	width: 100%;
+    	font-size: 25px;
+    	text-align: center;
+ }
+ #logo {
+ 	width: 100%;
+ }
+
+}
