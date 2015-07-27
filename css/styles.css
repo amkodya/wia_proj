@@ -52,6 +52,7 @@ body {
 	 position: absolute;
 	 top: 130px;
 	 left: -100px;
+	 text-align: center;
    }
    #logo {
    	width: 100%;
