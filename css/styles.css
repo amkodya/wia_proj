@@ -91,7 +91,7 @@ h1 {
 	font-size: 20px;
 	margin-top: 30px;
 	border-style: none;
-
+	font-family: "Dosis", sans-serif;
 
 }
 
@@ -123,8 +123,8 @@ h1 {
    }
    #lightbox button {
    	 width: 50%;
-   	 height: 20%;
-   	 font: 50pt;
+   	 height: 5%;
+   	 font-size: 20pt;
    }
    #wrapper a {
    	 width: 50%;
