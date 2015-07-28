@@ -82,14 +82,14 @@ h1 {
 	-moz-box-shadow: 0 0 25px #111;
 	max-width: 500px;
 	max-height: 700px;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 #lightbox button {
 	color: #fff;
 	background-color: #325473;
 	margin-right: 20px;
 	font-size: 20px;
-	margin-top: 30px;
+	margin-top: 20px;
 	border-style: none;
 	font-family: "Dosis", sans-serif;
 
@@ -101,7 +101,7 @@ h1 {
      clear: both;
      float: left;
      width: 100%;
-	 font-size: 50px;
+	 font-size: 80px;
 	 position: absolute;
 	 top: 130px;
 	 left: -100px;
@@ -122,15 +122,10 @@ h1 {
    	top: 900px;
    }
    #lightbox button {
-   	 width: 30%;
-   	 height: 5%;
-   	 font-size: 15pt;
-   	 padding-bottom: 10px;
+   	 width: 15%;
+   	 height: 2%;
+   	 font-size: 17pt;
+   	 padding-bottom: 30px;
    }
-   #wrapper a {
-   	 width: 80%;
-   	 height: 50%;
-   }
-
 
 }
