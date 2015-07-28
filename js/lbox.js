@@ -18,12 +18,14 @@ window.onload = function() {
 			//place the clicked href into our lightbox div
 			$("#content").html('<img src="' + image_href + '" />');
 
+			$('#lightbox').show();
+
 		} else {
 			//lightbox div will not exist 1st time
 
 			var lightbox = 
 				'<div id="lightbox">' +
-				'<p>Click to Close</p>' +
+				'<button>Click to Close</button>' +
 				'<div id="content">' +
 				//insert the clicked link href into an image
 				'<img src="' + image_href + '" />' +
@@ -33,10 +35,25 @@ window.onload = function() {
 				//insert the lightbox html into our page
 				$("body").append(lightbox);
 
-
-
 		}
 
 
 	});
+
+	//setup the click to close button
+	$("#lightbox").live('click', function(){
+
+		$('#lightbox').hide();
+
+
+	});
 }
+
+
+
+
+
+
+
+
+
