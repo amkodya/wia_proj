@@ -18,7 +18,7 @@ window.onload = function() {
 			//place the clicked href into our lightbox div
 			$("#content").html('<img src="' + image_href + '" />');
 
-			$('#lightbox').show();
+			$('#lightbox').fadeIn(2000);
 
 		} else {
 			//lightbox div will not exist 1st time
@@ -43,7 +43,7 @@ window.onload = function() {
 	//setup the click to close button
 	$("#lightbox").live('click', function(){
 
-		$('#lightbox').hide();
+		$('#lightbox').fadeOut(2000);
 
 
 	});
