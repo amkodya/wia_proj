@@ -5,10 +5,13 @@ body {
 	font-family: "Dosis", sans-serif;
 }
 #logo {
-	width: 50%;
-	margin: 50px 0 0 -95px;
+	width: 60%;
+	margin: 20px 0 0 -95px;
 	clear: none;
 	float: left;
+}
+h1 {
+	color: #325473;
 }
 #storepic {
 	width: 650px;
@@ -24,7 +27,7 @@ body {
 	clear: none;
 	float: left;
 	background-color: #D8AB91;
-	margin: 50px 100px;
+	margin: 30px 100px;
 }
 .ui-menu li {
 	height: 100px;
@@ -46,12 +49,23 @@ body {
 .ui-menu li:hover,
 .ui-menu li ul:hover,
 .ui-menu li ul li:hover {
-	background-color: #BF7572;
+	background-color: #325473;
 }
 #menu a {
+	list-style-type: none;
 	text-decoration: none;
 	color: #F3E5CA;
 	font-family: "Dosis", sans-serif;
+}
+/*lightbox*/
+#wrapper {
+	width: 600px;
+	margin: 0 auto;
+	border-radius: 0 0 5px 5px;
+	background: none;
+	border: none;
+	padding: 25px;
+	text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
@@ -71,6 +85,11 @@ body {
    	position: absolute;
    	top: 0;
    	left: 100px;
+   }
+   #storepic {
+   	position: relative;
+   	top: 300px;
+   	left: 150px;
    }
 
 }
