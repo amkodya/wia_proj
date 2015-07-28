@@ -101,12 +101,12 @@ h1 {
      clear: both;
      float: left;
      width: 100%;
-	 font-size: 90px;
+	 font-size: 80px;
 	 position: absolute;
 	 top: 130px;
 	 left: -100px;
 	 text-align: center;
-	 height: 60%;
+	 height: 50%;
    }
    #logo {
    	width: 100%;
