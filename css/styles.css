@@ -88,8 +88,11 @@ h1 {
    }
    #storepic {
    	position: relative;
-   	top: 300px;
+   	top: 600px;
    	left: 150px;
+   }
+   #wrapper {
+   	width: 100%;
    }
 
 }
