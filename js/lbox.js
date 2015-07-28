@@ -11,6 +11,9 @@ window.onload = function() {
 		var image_href = $(this).attr("href");
 		console.log(image_href);
 
+		var picCaption = $(this).attr("caption");
+		console.log(picCaption)
+
 		//setup the lighbox if not already setup or usethe lightbox if it exists
 
 		if($("#lightbox").length>0){
@@ -31,6 +34,7 @@ window.onload = function() {
 				//insert the clicked link href into an image
 				'<img src="' + image_href + '" />' +
 				'</div>' + //ends content div
+				'<p>' + picCaption + '</p>' +
 				'</div>' //closes lightbox div
 
 				//insert the lightbox html into our page
