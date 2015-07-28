@@ -5,7 +5,7 @@ body {
 	font-family: "Dosis", sans-serif;
 }
 #logo {
-	width: 60%;
+	width: 50%;
 	margin: 20px 0 0 -95px;
 	clear: none;
 	float: left;
@@ -106,7 +106,7 @@ h1 {
 	 top: 130px;
 	 left: -100px;
 	 text-align: center;
-	 height: 60%;
+	 height: 55%;
    }
    #logo {
    	width: 100%;
