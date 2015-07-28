@@ -91,6 +91,7 @@ h1 {
    	top: 800px;
    	left: 150px;
    	z-index: -100;
+   	width: 100%;
    }
    #wrapper {
    	width: 100%;
