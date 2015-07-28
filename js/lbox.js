@@ -1,4 +1,5 @@
 window.onload = function() {
+
 	
 	$(".lightbox_trigger").click(function(e){
 
@@ -18,7 +19,7 @@ window.onload = function() {
 			//place the clicked href into our lightbox div
 			$("#content").html('<img src="' + image_href + '" />');
 
-			$('#lightbox').fadeIn(2000);
+			$('#lightbox').fadeIn(1000);
 
 		} else {
 			//lightbox div will not exist 1st time
@@ -35,6 +36,8 @@ window.onload = function() {
 				//insert the lightbox html into our page
 				$("body").append(lightbox);
 
+				$("#lightbox").fadeIn(1000);
+
 		}
 
 
@@ -43,7 +46,7 @@ window.onload = function() {
 	//setup the click to close button
 	$("#lightbox").live('click', function(){
 
-		$('#lightbox').fadeOut(2000);
+		$('#lightbox').fadeOut(1000);
 
 
 	});

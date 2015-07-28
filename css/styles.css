@@ -88,7 +88,7 @@ h1 {
 	color: #fff;
 	background-color: #325473;
 	margin-right: 20px;
-	font-size: 12px;
+	font-size: 20px;
 	margin-top: 30px;
 	border-style: none;
 
@@ -117,10 +117,19 @@ h1 {
    	display: none;
    }
    #wrapper {
-   	width: 100%;
+   	width: 90%;
    	position: relative;
-   	top: 500px;
+   	top: 900px;
    }
-   
+   #lightbox button {
+   	 width: 50%;
+   	 height: 20%;
+   	 font: 50pt;
+   }
+   #wrapper a {
+   	 width: 50%;
+   	 height: 50%;
+   }
+
 
 }
