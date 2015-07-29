@@ -5,13 +5,21 @@ body {
 	font-family: "Dosis", sans-serif;
 }
 #logo {
-	width: 50%;
+	width: 70%;
 	margin: 20px 0 0 -95px;
 	clear: none;
 	float: left;
 }
-h1 {
+h1,
+h2 {
 	color: #325473;
+	float: left;
+	clear: right;
+	font-size: 30pt;
+	text-align: center;
+}
+h2 {
+	font-size: 12pt;
 }
 #storepic {
 	width: 650px;
@@ -59,13 +67,20 @@ h1 {
 }
 /*lightbox*/
 #wrapper {
-	width: 600px;
+	width: 800px;
 	margin: 0 auto;
 	border-radius: 0 0 5px 5px;
 	background: none;
 	border: none;
-	padding: 25px;
+	padding: 0 25px;
 	text-align: center;
+}
+#wrapper img:hover {
+	opacity: 0.6;
+
+}
+#wrapper h1 {
+	margin-left: 110px;
 }
 #lightbox {
 	position: fixed;
@@ -93,6 +108,18 @@ h1 {
 	border-style: none;
 	font-family: "Dosis", sans-serif;
 
+}
+/* map */
+.map_container {
+	background: url(../images/template/map.jpg) no-repeat 0px 0px;
+	height: 425px;
+	width: 860px;
+	position: relative;
+	top: 30px;
+	left: -150px;
+	color: #fff;
+	float: right;
+	margin: 0 0 0 20px;
 }
 
 @media screen and (max-width: 1000px) {

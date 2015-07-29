@@ -11,8 +11,8 @@ window.onload = function() {
 		var image_href = $(this).attr("href");
 		console.log(image_href);
 
-		var picCaption = $(this).attr("caption");
-		console.log(picCaption)
+		 //var picCaption = $(this).attr("title");
+			//console.log(picCaption);
 
 		//setup the lighbox if not already setup or usethe lightbox if it exists
 
@@ -26,6 +26,9 @@ window.onload = function() {
 
 		} else {
 			//lightbox div will not exist 1st time
+
+			var picCaption = $(this).attr("title");
+			//console.log(picCaption);
 
 			var lightbox = 
 				'<div id="lightbox">' +
@@ -42,7 +45,7 @@ window.onload = function() {
 
 				$("#lightbox").fadeIn(1000);
 
-		}
+		};
 
 
 	});
